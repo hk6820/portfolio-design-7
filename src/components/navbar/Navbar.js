@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import './Navbar.css';
 
-const Navbar = ({ brandName = 'abc', navLinks }) => {
+const Navbar = ({ brandName = brandName, navLinks }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
