@@ -1,0 +1,90 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 0 5vw;
+  color: white;
+  background-color: #0d0d0d;
+}
+
+.hero {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin-top: 0.5rem;
+}
+
+.hero p {
+  margin-top: 1rem;
+  color: #aaa;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-button {
+  padding: 0.75rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background: #1e90ff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 14px rgba(30, 144, 255, 0.4);
+}
+
+.hero-button:hover {
+  background: #1c86ee;
+  transform: translateY(-2px);
+}
+
+.hero-button.outline {
+  background: transparent;
+  border: 2px solid #1e90ff;
+  color: #1e90ff;
+  box-shadow: none;
+}
+
+.hero-button.outline:hover {
+  background: #1e90ff;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-container {
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero {
+    max-width: 100%;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-button {
+    width: 100%;
+    text-align: center;
+  }
+}

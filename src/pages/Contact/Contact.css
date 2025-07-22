@@ -1,0 +1,60 @@
+.contact-wrapper {
+  background-color: #0d0d0d;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.contact-subtitle {
+  color: #1e90ff;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.contact-nav a:hover {
+  color: #1e90ff;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-icons a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  color: #1e90ff;
+}
+
+.contact-footer p {
+  margin: 0.3rem 0;
+  color: #ccc;
+  font-size: 0.9rem;
+}
